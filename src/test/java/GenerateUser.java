@@ -11,7 +11,7 @@ public class GenerateUser {
             Faker faker = new Faker(new Locale(ru));
             return faker.address().cityName();
         }
-    //порой загенерированное имя не соответствует полу фамилии пр. Иванов Анна, и наоборот
+    //порой cгенерированное имя не соответствует полу фамилии пр. Иванов Анна, и наоборот
         public static String generateName(String ru) {
 
             Faker faker = new Faker(new Locale(ru));
